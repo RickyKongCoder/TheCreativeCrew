@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Poppins&display=swap" rel="stylesheet"><title>Devchallenges</title>
+
+    <style>
+      #header{
+        display: flex;
+        max-width: 1284px;
+        margin: 80px auto;
+      }
+
+      #title{
+        font-family: 'PT Serif', serif;
+        font-size:36px;
+        font-weight: 700;
+        line-height: 47.7px;
+        letter-spacing: -0.045em;/*relative to current */
+        position:relative;
+        display: inline-block;
+        width:auto;
+        margin: 0;
+        top:50%;
+        left: 50%;
+        -ms-transform: translate(-50%,-50%);
+        transform:translate(-50%,-50%);
+
+      }     
+      #wrapper-left{
+        flex:1;
+      }
+      #wrapper-right{
+        flex:1;
+        display: block;
+      }
+      #intro-title h1{
+        width: 117px;
+        height:27px;
+        text-transform: uppercase;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight:600;
+        font-size: 18px;
+        line-height: 27px;
+
+      }
+      #intro-content{
+        width: 439px;
+        height:87px;
+        text-transform: uppercase;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight:400;
+        font-size: 18px;
+        line-height: 27px;
+
+      }
+      img{
+        width: 238px;
+        height: auto;
+      }
+      #rot {
+        position: relative;
+        font-family: 'PT Serif', serif;
+        font-style: normal; 
+        font-weight: normal;
+        font-size:12px;
+        text-transform: uppercase;
+        line-height:16px;
+     
+      }
+      #rot{
+        display: inline-block;
+        width: fit-content;
+        height: fit-content;
+        transform: rotate(90deg) translate(3px, -18px); 
+        transform-origin: top left;
+        min-width: 100px;
+        white-space: nowrap;
+      }
+
+      .job-image-wrapper{
+        display: flex;
+        position: relative;
+        width: 238px;
+        margin:auto;
+        left:50%;
+        transform: translateX(-50%);
+
+      }
+      #name{
+        font-family: 'Poppins';
+        width: 117px;
+        height: 27px;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        margin-top: 30px;
+        margin-bottom:120px;
+      }
+      .type2{
+        position: relative;
+        
+        transform: translateY(20%);
+      }
+
+      #centralGrid{
+     
+        display: grid;
+        margin: 20px auto;
+        max-width: 1000px;
+        margin: 92px auto;
+        grid-template-columns: auto auto auto;
+      }
+      .type1,.type2{
+       margin:   auto ;
+       width: 238px;
+
+      }
+    </style>
+      
+  </head>
+  <body>
+   <div id="header">
+     <div id="wrapper-left">
+      <div id="title">
+        The creative crew
+     </div>
+     </div>
+     <div id="wrapper-right">
+      <div id="intro-title">
+       <h1> Who We Are</h1>
+      </div>
+      <div id="intro-content">
+        <p>
+        We are team of creatively diverse. driven.<br> 
+        innovative individuals working in various<br>
+        locations from the world.
+      </p>
+      </div>
+    </div>
+   </div>
+   
+   <div id="centralGrid">
+      <div class = "type1">
+        <div class="job-image-wrapper">
+        <img src="photo1.png"></img>
+        <!-- <div id="job"> -->
+          <div id="rot">Product owner</div></div>
+      <!-- </div> -->
+        <div id="name">Bill Mahoney</div>
+    
+
+      </div>
+      <div class="type2">
+        <div class="job-image-wrapper">
+        <img src="photo2.png"></img>
+        <div id="job">  <div id="rot">Saba Cabrera</div></div>
+      </div>
+        <div id="name">Saba Cabrera</div>
+       
+      </div>
+      <div class = "type1">
+        <div class="job-image-wrapper">
+        <img src="photo3.png"></img>
+        <div id="job">  <div id="rot">Tech Lead</div></div>
+      </div>
+        <div id="name">Shae Le</div>
+       
+      </div>
+      <div class="type1">
+        <div class="job-image-wrapper">
+        <img src="photo4.png"></img>
+        <div id="job">  <div id="rot">Ux Design</div></div>
+      </div>
+        <div id="name">Skylah Lu</div>
+        </div>
+  
+      <div class = "type2">
+        <div class="job-image-wrapper">
+        <img src="photo5.png"></img>
+        <div id="job"><div id="rot">Developer</div></div>
+      </div>
+        <div id="name">Griff Richards</div>
+        </div>
+ 
+      <div class="type1">
+        <div class="job-image-wrapper">
+        <img src="photo6.png"></img>
+        <div id="job"><div id="rot">Developer</div></div>
+      </div>
+        <div id="name">Stan John</div>
+     
+      </div>
+      
+
+   </div>
+  </body>
+</html>
