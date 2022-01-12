@@ -60,7 +60,7 @@ maximum-scale=5"
    
       }
       #intro-title h1{
-        width: 117px;
+         min-width: 100%;
         height:27px;
         text-transform: uppercase;
         font-family: 'Poppins', sans-serif;
@@ -78,7 +78,7 @@ maximum-scale=5"
         font-style: normal;
         font-weight:400;
         font-size: 18px;
-
+        margin-bottom: 10px;
         line-height: 27px;
 
       }
@@ -163,10 +163,7 @@ maximum-scale=5"
         
       }
       @media only screen and (max-width:1153px){
-       #intro-content{
-        font-size: 18px;
-
-       }
+     
         #centralGrid{
           min-width: 600px;
           grid-template-columns: auto auto ;
@@ -184,7 +181,7 @@ maximum-scale=5"
      
         
       }
-      @media only screen and (max-width:860px){
+      @media  screen and (max-width:860px){
         #header{
           display: block;
         }
@@ -194,10 +191,13 @@ maximum-scale=5"
         }
         #intro-content{
           width: 100%;
+
+       }
+       #intro-content p{
+          width: 100%;
         font-size: 14px;
 
        }
-        }
         img{
           width: 90%;
         }
@@ -225,10 +225,11 @@ maximum-scale=5"
         .type1,.type2{
           width: 90%;
         }
-
-
         
       }
+
+        
+      
     </style>
       
   </head>
